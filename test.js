@@ -1,8 +1,9 @@
 
-var h = require('Hardware');
+var ph = require('./lib/Ph');
+var h = require('./lib/Hardware');
 
-h.Ready = function () {
-	debugger;
-	h.SN.Control.PhDown.Send(10);
-	console.log(h.SN.Water.Read());
-}
+h.on('ready', function () {
+	setInterval(function  () {
+		console.log(ph.value);
+	}, 1000);
+});
