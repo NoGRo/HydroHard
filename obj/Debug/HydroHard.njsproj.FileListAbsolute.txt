@@ -1,0 +1,2 @@
+D:\con copia\ProgramaCion\Hydro\HydroHard\obj\Debug\HydroHard.njsprojResolveAssemblyReference.cache
+D:\con copia\ProgramaCion\Hydro\HydroHard\bin\Microsoft.NodejsTools.WebRole.dll
