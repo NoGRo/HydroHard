@@ -7,6 +7,5 @@ var h = require('./lib/Hardware');
 //var Target = target.Get();
 
 h.on('ready', function() {
-    ph.down.Send(5);
-    ph.correct();
+    //ph.correct();
 });
