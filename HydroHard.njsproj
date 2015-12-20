@@ -18,13 +18,14 @@
   <ItemGroup>
     <Content Include="Target.json" />
     <Compile Include="index.js" />
+    <Compile Include="lib\Fan.js" />
+    <Compile Include="lib\Light.js" />
     <Compile Include="test.js" />
     <Compile Include="lib\config.js" />
     <Compile Include="lib\Ec.js" />
     <Compile Include="lib\Hardware.js" />
     <Compile Include="lib\Main.js" />
     <Compile Include="lib\Ph.js" />
-    <Compile Include="lib\Sensors.js" />
     <Compile Include="lib\Sn.js" />
     <Compile Include="lib\Target.js" />
     <Compile Include="lib\Values.js" />

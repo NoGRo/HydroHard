@@ -1,5 +1,5 @@
 
-var ph = require('./lib/Ph');
+var Sn = require('./lib/Sn');
 var h = require('./lib/Hardware');
 
     
@@ -7,5 +7,7 @@ var h = require('./lib/Hardware');
 //var Target = target.Get();
 
 h.on('ready', function() {
-    //ph.correct();
+
+    Sn.ph.startCheck;
+
 });
